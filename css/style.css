@@ -16,8 +16,10 @@ h1 {
 
 .logotitle {
   margin-top: -1000px;
-  margin-left: 700px;
+  margin-left: 400px;
   display:inline-block;
+  font-weight: bold;
+  color: brown;
 }
 
 .top {
@@ -26,7 +28,7 @@ h1 {
 
 
 .logo.logo {
-  margin-left: 830px;
+  margin-left: 540px;
   display:inline-block;
   margin-right:10px;
 }
@@ -473,7 +475,7 @@ a {
 }
 
 .hList {
-  margin-left: 120px;
+  margin-left: 140px;
   position: relative;
   z-index: -1;
 }
@@ -485,7 +487,7 @@ a {
 
 .menu-title {
   display: block;
-  width: 400px;
+  width: 250px;
   height: 70px;
   padding: 12px 0 0;
   background: #9dc852;
@@ -494,6 +496,7 @@ a {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.3s background-color;
+  font-size: 40px;
 }
 
 .menu-title:before {
@@ -591,10 +594,12 @@ a {
 
 .menu-dropdown {
   min-width: 100%;
+  width: 30px;
   padding: 15px 0;
   position: absolute;
   background: #ebebeb;
   transition: 0.5s padding, 0.5s background;
+  font-size: 30px;
 }
 
 .menu-dropdown:after {
